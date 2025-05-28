@@ -1,0 +1,44 @@
+
+
+
+<div class="text-box">
+# Part 2: Correlation Between Demographics and Post-Secondary Buildings Per Tract
+</div>
+
+<div class="text-box">
+**Goals of Part 2**
+
+Part 2 is Dedicated to Answering the Following Research Question 
+
+2) How is post-secondary achievement rate (Associate/Bachelors Degree) influenced by living in the same tract as a post-secondary school building(s). 
+       
+       a) How does this trend differ between tracts that have more Black/Latines than White/Latines and vice versa. 
+             
+
+</div>
+
+<div class="text-box">
+
+**What you'll see in Part 2**
+
+1) Downloading post-secondary building data geojson from OpenDataPhilly
+
+2) Merging building geojson with original "Identity_Per_Tract" dataframe from Part 1
+
+3) Creation of a folium map that plots all post-secondary school buildings, along with the median income of each tract in Philadehlpia, and its White-Latine/Black-Latine population.  
+
+
+4) Development of three bar charts with altair displaying the relationship between socioeconomic status (Median Household Income)
+and post-secondary achievement (Associates & Bachelors) with census tracts that have a post-secondary building, and those that do not.
+Each bar chart has two sets of bars (Building vs No Building) and the bar charts are differentiated based on which overarching tracts are included in analysis. The seperation of tracts are as follows; 
+
+    a) Bar chart contaning all census tracts in Philadelphia
+    b) Bar chart of tracts with more White Latines than Black Latines
+    c) Bar chart of tracts with more Black Latines than White Latines
+
+
+
+</div>
+
+
+

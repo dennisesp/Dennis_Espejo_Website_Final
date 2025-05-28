@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: docs
+  preview:
+    port: 3333
+
+website:
+  title: "MUSA 550"
+  page-footer:
+    left: "espejo@upenn.edu"
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+
+  sidebar:
+    logo: "images/philly.png"
+    pinned: true
+    align: center
+    tools:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/dennis-ram%C3%B3n-espejo/
+        text: "LinkedIn Account"
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents:
+      - href: index.qmd
+        text: Project Overview
+      - about.qmd
+      - section: analysis/index.qmd
+        collapse: true
+        contents:
+          - analysis/1-data_cleaning.ipynb
+          - analysis/2-Choropleth.ipynb
+          - analysis/3-Bar_graph.ipynb
+      - section: analysis_2/index.qmd
+        collapse: true
+        contents: 
+          - analysis_2/2.1.ipynb
+          - analysis_2/2.2.ipynb
+          - analysis_2/2.3.ipynb
+          
+      - section: Conclusion/Conclusion.qmd
+        collapse: true
+        contents:
+          - Conclusion/Limitations.qmd
+        
+
+format:
+  html:
+    highlight-style: solarized
+    theme: sandstone
+    css: styles.css
+    code-copy: true
+    code-overflow: wrap
+    toc: true
