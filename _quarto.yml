@@ -5,13 +5,13 @@ project:
     port: 3333
 
 website:
-  title: "MUSA 550"
+  title: "Dennis Espejo"
   page-footer:
     left: "espejo@upenn.edu"
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
 
   sidebar:
-    logo: "images/philly.png"
+    logo: "images/dennis.png"
     pinned: true
     align: center
     tools:
@@ -23,26 +23,11 @@ website:
     collapse-level: 1
     contents:
       - href: index.qmd
-        text: Project Overview
+        text: Welcome
       - about.qmd
-      - section: analysis/index.qmd
-        collapse: true
-        contents:
-          - analysis/1-data_cleaning.ipynb
-          - analysis/2-Choropleth.ipynb
-          - analysis/3-Bar_graph.ipynb
-      - section: analysis_2/index.qmd
-        collapse: true
-        contents: 
-          - analysis_2/2.1.ipynb
-          - analysis_2/2.2.ipynb
-          - analysis_2/2.3.ipynb
-          
-      - section: Conclusion/Conclusion.qmd
-        collapse: true
-        contents:
-          - Conclusion/Limitations.qmd
-        
+      - research.qmd
+      - section: publications/publications.ipynb
+      - section:
 
 format:
   html:

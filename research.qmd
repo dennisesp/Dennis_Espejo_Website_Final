@@ -1,0 +1,19 @@
+---
+title: "Research Interests and Publications"
+toc: false
+---
+
+
+<div>
+
+  <div class="text-box">
+
+
+**Area of Research**
+
+Dennis Espejo’s research interests explore the intersection of geography, race, and higher education outcomes for Latine communities. Building on projects that analyze school accessibility using spatial modeling and geospatial data, Dennis examines how neighborhood environments and proximity to colleges shape college readiness and enrollment patterns in urban areas like North Philadelphia. His work integrates spatial autocorrelation, spatial econometric models, and critical frameworks like Quantitative Critical Theory (QuantCrit) to reveal how systemic barriers rooted in geography impact educational equity. By centering the experiences of underrepresented Latine students—especially those navigating historically marginalized urban spaces—Dennis’s work seeks to inform institutional practices that account for the complex, place-based challenges these communities face.
+
+</div>
+
+
+ 

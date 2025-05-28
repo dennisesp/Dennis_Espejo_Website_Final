@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: docs
+  preview:
+    port: 3333
+
+website:
+  title: "Dennis Espejo"
+  page-footer:
+    left: "espejo@upenn.edu"
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+
+  sidebar:
+    logo: "images/dennis.png"
+    pinned: true
+    align: center
+    tools:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/dennis-ram%C3%B3n-espejo/
+        text: "LinkedIn Account"
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents:
+      - href: index.qmd
+        text: Welcome
+      - about.qmd
+      - research.qmd
+      - section: publications/publications.ipynb
+      - section:
+
+format:
+  html:
+    highlight-style: solarized
+    theme: sandstone
+    css: styles.css
+    code-copy: true
+    code-overflow: wrap
+    toc: true
