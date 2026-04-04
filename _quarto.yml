@@ -27,7 +27,12 @@ website:
       - about.qmd
       - research.qmd
       - section: publications/publications.ipynb
-      - section:
+      - section: Analyis/Analysis.qmd
+        collapse: true
+        contents: Assignment 3/ 
+          - analysis_2/2.1.ipynb
+      - assignments.qmd
+      - section
 
 format:
   html:
