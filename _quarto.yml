@@ -29,7 +29,7 @@ website:
       - section: publications/publications.ipynb
       - section: Analyis/Analysis.qmd
         collapse: true
-        contents: Assignment 3/ 
+        contents: Assignments/MUSA_COMM_Assignment2.ipynb
           - analysis_2/2.1.ipynb
       - assignments.qmd
       - section
