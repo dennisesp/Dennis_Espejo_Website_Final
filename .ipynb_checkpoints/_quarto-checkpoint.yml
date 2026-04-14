@@ -24,10 +24,21 @@ website:
     contents:
       - href: index.qmd
         text: Welcome
-      - about.qmd
-      - research.qmd
-      - section: publications/publications.ipynb
-      - section:
+      - href: about.qmd
+      - href: research.qmd
+
+      - section: Publications
+        contents:
+          - href: publications/publications.ipynb
+
+      - section: Assignments
+        collapse: true
+        contents:
+          - href: Assignments/MUSA_COMM_Assignment2.ipynb
+          - text: Assignments
+          - href: analysis_2/2.1.ipynb
+
+      - href: assignments.qmd
 
 format:
   html:
