@@ -2386,9 +2386,8 @@ Ill-fitting Projection (EPSG: 3035 )
 </div>
 </div>
 </div>
-<p>For my ill-fitting projection map, I recreated the same visualization using the ETRS89 / LAEA Europe projection (EPSG:3035). While this projection is designed to preserve area, it is optimized for Europe, making it inappropriate for mapping data across the United States. Because the projection is centered over Europe, the U.S. appears rotated and visually compressed, with the country effectively tilted and distorted in orientation.</p>
-<p>Although EPSG:3035 preserves area in its intended geographic context, it does not minimize distortion for regions outside of Europe. In this case, the United States appears spatially compressed and misaligned, which alters perceived distances and regional relationships. As a result, the country no longer resembles its recognizable geographic form, making it more difficult to interpret spatial patterns.</p>
-<p>For my proportional symbol map, this distortion is especially problematic. The placement and distribution of symbols become misleading, not because the data has changed, but because the projection distorts how that data is represented spatially. This ultimately reduces the clarity and analytical usefulness of the map.</p>
+<p>For my ill-fitting projection map, I recreated the same visualization using the ETRS89 / LAEA Europe projection (EPSG:3035). This projection is designed as a Lambert Azimuthal Equal Area projection centered on Europe. However, in my map of the United States, it does not preserve area in any meaningful way. Visually, the U.S. appears rotated, tilted, and spatially compressed, and it no longer resembles its recognizable geographic form. This distorts appearance and how we interpret distance and regional relationships across the map.</p>
+<p>For my proportional symbol map, this becomes especially problematic. The data itself has not changed, but the projection distorts the space the data sits on, making the placement and distribution of symbols misleading. Instead of helping reveal patterns, the projection introduces confusion. In short, EPSG:3035 works well for Europe because it preserves area and minimizes distortion there, but when applied to the U.S., it fails to maintain those properties and undermines the interpretability of the map.</p>
 </div>
 <div class="text-box">
 <h3 class="anchored">
